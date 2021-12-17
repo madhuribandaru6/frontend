@@ -1,0 +1,43 @@
+.parent{
+    
+    display: flex;
+    flex-direction:row ;
+    text-align: center;
+    
+    
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    border:3px solid indigo ;
+}
+.parent>div{
+    width: auto;
+    border: 3px solid green;
+    padding: 1%;
+    margin: 3%;
+    background-color: lightskyblue;
+    
+}
+h2{
+    color:blue ;
+
+}
+   
+h3{
+    color: crimson;
+  
+}
+
+/*@media only screen and (min-width: 320px) and  (max-width:480px){
+.parent{
+        display:flex ;
+        flex-direction:column;
+}
+.parent>div{
+        width: 80%;
+}
+
+} */  

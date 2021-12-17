@@ -1,0 +1,49 @@
+.parent{
+    
+    display: flex;
+    flex-direction:row ;
+    text-align: center;
+    
+    
+    
+}
+img{
+    width: 80%;
+    height: 40%;
+    border-radius: 30%;
+    border:3px solid indigo ;
+   
+}
+.parent>div{
+    width: auto;
+    border: 3px solid green;
+    padding: 1%;
+    margin: 3%;
+    background-color: lightskyblue;
+    
+}
+h2{
+    color:blue ;
+    justify-self: center;
+}
+h3{
+    color: crimson;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 481px) and  (max-width:768px){
+.card{
+        display:flex ;
+        flex-direction:row;
+    
+}
+.parent>card{
+        width: auto;
+        height:auto;
+        font-display:row ;
+        border: 2px solid skyblue;
+
+
+}
+
+}
